@@ -6,7 +6,8 @@ cache:
 
 before_script:
   - npm install hexo-cli -g
-  - npm install --force
+  - npm install hexo-theme-redefine@latest
+  - npm install
   - hexo generate
 
 pages:
